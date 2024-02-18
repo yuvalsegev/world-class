@@ -4,7 +4,7 @@ project(Pybind11Example LANGUAGES CXX)
 # Set the C++ standard
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_FLAGS "-Wall -Wextra -O3 -mavx -fopenmp -pipe")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -mavx -fopenmp -pipe /openmp:llvm /EHsc")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Find Python

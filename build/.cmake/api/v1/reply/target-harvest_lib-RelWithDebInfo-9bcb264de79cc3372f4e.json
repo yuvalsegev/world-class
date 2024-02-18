@@ -1,0 +1,286 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "RelWithDebInfo/harvest_lib.cp310-win_amd64.pyd"
+		},
+		{
+			"path" : "RelWithDebInfo/harvest_lib.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__Python_add_library",
+			"python_add_library",
+			"pybind11_add_module",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"C:/Program Files/CMake/share/cmake-3.29/Modules/FindPython/Support.cmake",
+			"C:/Program Files/CMake/share/cmake-3.29/Modules/FindPython.cmake",
+			"C:/Users/yuval/AppData/Local/Programs/Python/Python310/share/cmake/pybind11/pybind11NewTools.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 187,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 635,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4078,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4087,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 203,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 194,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc -O3 -mavx -fopenmp -pipe /openmp:llvm /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/bigobj"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "/MP"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "harvest_lib_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/yuval/world-class/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/yuval/world-class/tools"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/yuval/AppData/Local/Programs/Python/Python310/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					9,
+					9,
+					9
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "harvest_lib::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "C:\\Users\\yuval\\AppData\\Local\\Programs\\Python\\Python310\\libs\\python310.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Users\\yuval\\AppData\\Local\\Programs\\Python\\Python310\\libs\\python310.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "harvest_lib",
+	"nameOnDisk" : "harvest_lib.cp310-win_amd64.pyd",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/cheaptrick.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/codec.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/d4c.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/harvest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/module.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/synthesis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/world_common.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/world_fft.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/world_matlabfunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "tools/audioio.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "tools/parameterio.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

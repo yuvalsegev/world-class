@@ -1,0 +1,205 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 18/02/2024 19:53:19.
+      
+      Project "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\3.29.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.80
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/yuval/world-class/build/CMakeFiles/3.29.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s7ea1y"
+      binary: "C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s7ea1y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s7ea1y'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cfc44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 18/02/2024 19:53:20.
+        
+        Project "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ea1y\\cmTC_cfc44.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cfc44.dir\\Debug\\".
+          Creating directory "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ea1y\\Debug\\".
+          Creating directory "cmTC_cfc44.dir\\Debug\\cmTC_cfc44.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cfc44.dir\\Debug\\cmTC_cfc44.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cfc44.dir\\Debug\\cmTC_cfc44.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cfc44.dir\\Debug\\\\" /Fd"cmTC_cfc44.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cfc44.dir\\Debug\\\\" /Fd"cmTC_cfc44.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ea1y\\Debug\\cmTC_cfc44.exe" /INCREMENTAL /ILK:"cmTC_cfc44.dir\\Debug\\cmTC_cfc44.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s7ea1y/Debug/cmTC_cfc44.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s7ea1y/Debug/cmTC_cfc44.lib" /MACHINE:X64  /machine:x64 cmTC_cfc44.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cfc44.vcxproj -> C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ea1y\\Debug\\cmTC_cfc44.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cfc44.dir\\Debug\\cmTC_cfc44.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cfc44.dir\\Debug\\cmTC_cfc44.tlog\\cmTC_cfc44.lastbuildstate".
+        Done Building Project "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ea1y\\cmTC_cfc44.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.69
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "C:/Users/yuval/AppData/Local/Programs/Python/Python310/share/cmake/pybind11/pybind11Common.cmake:276 (check_cxx_compiler_flag)"
+      - "C:/Users/yuval/AppData/Local/Programs/Python/Python310/share/cmake/pybind11/pybind11Common.cmake:340 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "C:/Users/yuval/AppData/Local/Programs/Python/Python310/share/cmake/pybind11/pybind11Common.cmake:385 (_pybind11_generate_lto)"
+      - "C:/Users/yuval/AppData/Local/Programs/Python/Python310/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s75mrr"
+      binary: "C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s75mrr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-Wall -Wextra -O3 -mavx -fopenmp -pipe"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/yuval/world-class/build/CMakeFiles/CMakeScratch/TryCompile-s75mrr'
+        
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ae082.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 18/02/2024 19:53:23.
+        
+        Project "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\cmTC_ae082.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ae082.dir\\Debug\\".
+          Creating directory "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\Debug\\".
+          Creating directory "cmTC_ae082.dir\\Debug\\cmTC_ae082.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ae082.dir\\Debug\\cmTC_ae082.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ae082.dir\\Debug\\cmTC_ae082.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae082.dir\\Debug\\\\" /Fd"cmTC_ae082.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Wextra -O3 -mavx -fopenmp -pipe "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae082.dir\\Debug\\\\" /Fd"cmTC_ae082.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /errorReport:queue  -Wextra -O3 -mavx -fopenmp -pipe "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\src.cxx"
+        cl : command line  error D8021: invalid numeric argument '/Wextra' [C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\cmTC_ae082.vcxproj]
+        Done Building Project "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\cmTC_ae082.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\cmTC_ae082.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  error D8021: invalid numeric argument '/Wextra' [C:\\Users\\yuval\\world-class\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s75mrr\\cmTC_ae082.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+...
